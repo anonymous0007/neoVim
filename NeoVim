@@ -18,4 +18,13 @@ ________________________________________________________________________________
  nvim
 4. For Exit
 q
+===================================================================================
+# config nvim
+===================================================================================
+Create some directories and files under
+cd ~/.config/
+mkdir nvim
+cat init.lua
+mkdir lua
+mkdir lua/{config,plugins,util}  // sub-directories under lua
 
