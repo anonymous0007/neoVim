@@ -1,0 +1,21 @@
+SetUp NEOVim step by step
+============================================================================================
+1. Download neovim
+____________________________________________________________________________________________
+# For macOS
+curl -LO https://github.com/neovim/neovim/releases/download/nightly/nvim-macos.tar.gz
+tar xzf nvim-macos.tar.gz
+./nvim-macos/bin/nvim
+____________________________________________________________________________________________
+# For Linux
+curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+chmod u+x nvim.appimage
+./nvim.appimage
+____________________________________________________________________________________________
+2. After install move to local directory for use globaly
+ mv nvim.appimage /usr/local/bin/nvim
+3. Run
+ nvim
+4. For Exit
+q
+
